@@ -1,2 +1,4 @@
-# Bonsai-Pricing-page
- Estou aprimorando minhas habilidades em CSS e HTML, criando uma réplica de um site existente. Através dessa prática, estou aprendendo a estrutura do código, organização de elementos e estilização. Busco criar interfaces elegantes e responsivas para projetos futuros.
+# Bonsai Pricing
+Este site foi criado com o objetivo de aprimorar minhas habilidades em CSS e HTML. É uma reprodução de um site existente, no qual estou colocando em prática os conceitos aprendidos e explorando diferentes técnicas de design e layout. Estou focado em entender a estrutura do código, a organização dos elementos e a aplicação de estilos para criar uma réplica fiel do site original. Ao fazer isso, estou aprendendo a manipular elementos, utilizar seletores CSS, posicionar elementos na página, estilizar textos e imagens, criar transições e animações, entre outros aspectos do desenvolvimento web. Essa prática me permite ganhar confiança e experiência na construção de interfaces elegantes e responsivas, preparando-me para projetos futuros.
+
+Site original: https://www.hellobonsai.com/pricing
