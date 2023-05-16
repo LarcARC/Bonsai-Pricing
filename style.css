@@ -1,0 +1,127 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;700;800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* header */
+
+.navbar {
+  width: 100%;
+  padding: 15px 300px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: rgb(255, 255, 255);
+  color: #738c7a;
+  font-weight: 550;
+  font-size: 15px;
+}
+
+.image {
+  margin-right: 60px;
+}
+
+/*dropdown product*/
+
+.dropdown {
+  padding-right: 25px;
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-trigger:hover {
+    color: #22ad01;
+}
+
+.dropdown-trigger {
+  color: #738c7a;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.dropdown-menu {
+  width: 100%;  
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+.dropdown-menu li {
+  padding: 10px;
+}
+
+.dropdown-menu li a {
+  color: #000;
+  text-decoration: none;
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+.login {
+  margin-left: auto;
+}
+
+.login button:nth-child(1) {
+  font-weight: 600;
+  padding: 20px;
+  border-radius: 20px;
+  border: none;
+  background-color: transparent;
+}
+
+.login button:nth-child(2) {
+  font-weight: 600;
+  padding: 10px 20px;
+  border-radius: 20px;
+  border: none;
+  background-color: #22ad01;
+}
+
+.login button:nth-child(1) a {
+  text-decoration: none;
+  color: #003c2f;
+}
+
+.login button:nth-child(2) a {
+  text-decoration: none;
+  color: #fff;
+}
+
+hr {
+  margin-top: -12px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 68%;
+  border-color: #738c7a15;
+}
+
+/* main */
+.subnav nav{
+    padding: 15px 300px;
+    display: flex;
+    flex-direction: row;
+}
+
+.subnav a{
+    padding-right: 25px;
+    text-decoration: none;
+    color: #738c7aab;
+    font-weight: 600;
+}
+
+.title1{
+    color: #003c2f;
+    font-size: 60px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 200px;
+}
