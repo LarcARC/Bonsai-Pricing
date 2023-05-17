@@ -136,6 +136,7 @@ html {
   border-radius: 20px;
   border: none;
   background-color: transparent;
+  transition: 0.5s;
 }
 
 .login button:nth-child(1):hover {
@@ -151,6 +152,11 @@ html {
   border-radius: 20px;
   border: none;
   background-color: #22ad01;
+  transition: 0.5s;
+}
+
+.login button:nth-child(2):hover {
+  background-color: #41bb22;
 }
 
 .login button:nth-child(1) a {
