@@ -15,7 +15,7 @@ html {
 
 .navbar {
   padding-top: 10px;
-  margin-inline: 300px;
+  margin-inline: 16%;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -58,8 +58,8 @@ html {
   position: fixed;
   top: 70px;
   background-color: #fff;
-  padding: 35px;
-  padding-inline: 300px;
+  padding-top: 35px;
+  padding-inline: 16%;
   list-style-type: none;
   box-shadow: 0 24px 40px -20px rgba(0, 0, 0, 0.2);
 }
@@ -179,7 +179,8 @@ hr {
 
 /* main */
 .subnav nav {
-  padding: 15px 300px;
+  padding-top: 15px;
+  padding-inline: 16%;
   display: flex;
   flex-direction: row;
 }
@@ -206,4 +207,66 @@ hr {
 
 .teste {
   height: 5000px;
+}
+
+/* Toggle Switch */
+
+.toggle-button {
+  display: flex;
+  justify-content: center;
+}
+
+.toggle-switch {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 350px;
+  height: 70px;
+  margin-top: 30px;
+  background-color: #f0f5f0;
+  border-radius: 50px;
+  padding: 0.4%;
+}
+
+.toggle-switch input[type="radio"] {
+  display: none;
+}
+
+.toggle-switch label {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #f0f5f0;
+  border-radius: 50px;
+  color: #003c2f;
+  cursor: pointer;
+  transition: 0.5s ease;
+}
+
+.toggle-switch input[type="radio"]:checked + label {
+  background-color: #003c2f;
+  color: #fff;
+}
+
+.monthly{
+  align-items: center;
+  width: 35%;
+  height: 100%;
+}
+
+.yearly{
+  align-items: center;
+  width: 65%;
+  height: 100%;
+}
+
+.visible {
+  background-color: #fff;
+  color: #22ad01;
+  border-radius: 50px;
+  font-size: 9px;
+  font-weight: bolder;
+  padding: 5px 10px;
+  margin-left: 20px;
 }
