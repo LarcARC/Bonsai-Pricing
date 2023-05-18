@@ -24,6 +24,17 @@ html {
   font-weight: 550;
   font-size: 15px;
   border-bottom: 1px solid #738c7a44;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.navbar.shadow {
+  box-shadow: 0 24px 40px -20px rgba(0, 0, 0, 0.2);
+  width: 100%;
+  margin-inline: 0;
+  padding-inline: 16%;
 }
 
 .image {
@@ -179,7 +190,7 @@ hr {
 
 /* main */
 .subnav nav {
-  padding-top: 15px;
+  margin-top: 85px;
   padding-inline: 16%;
   display: flex;
   flex-direction: row;
@@ -187,7 +198,7 @@ hr {
 
 .subnav a {
   font-size: 15px;
-  padding-right: 25px;
+  padding-right: 31px;
   text-decoration: none;
   color: #738c7aab;
   font-weight: 600;
