@@ -281,3 +281,106 @@ hr {
   padding: 5px 10px;
   margin-left: 20px;
 }
+
+/* Plans Yearly*/
+
+.contents {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 80px;
+  margin-inline: 20%;
+}
+
+.content1:nth-child(2) {
+  outline: 10px solid #ee8146;
+}
+
+.content1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 350px;
+  height: 850px;
+  border-radius: 20px;
+  padding: 56px 35px 40px;
+  background-color: #fff;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.content1 h2 {
+  color: #003c2f;
+  font-size: 40px;
+  font-weight: 1000px;
+  margin: 10px;
+}
+
+.content1 h2:nth-child(2) {
+  font-size: 40px;
+}
+
+.content1 h2:nth-child(2) span {
+  margin-inline: 8px;
+}
+
+.month-h2 {
+  color: #738c7a;
+  font-size: 15px;
+}
+
+.cifrao {
+  font-size: 20px;
+}
+
+.content1 button {
+  text-decoration: none;
+  background-color: #22ad01;
+  border: none;
+  border-radius: 50px;
+  padding: 15px 60px;
+  margin: 10px;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.content1 button:hover {
+  background-color: #41bb22;
+}
+
+.content1 a {
+  width: 100%;
+  height: 100%;
+  text-decoration: none;
+  color: #fff;
+  font-size: 15px;
+  font-weight: bolder;
+}
+
+.content1 p {
+  text-align: center;
+  color: #738c7a;
+  margin: 20px 0px;
+  margin-bottom: 40px;
+  padding-bottom: 30px;
+  border-bottom: 1px solid #738c7a44;
+  font-size: 14px;
+}
+
+.content1 ul {
+  list-style-type: none;
+}
+
+.content1 li {
+  background-image: url(images/check.png);
+  background-repeat: no-repeat;
+  background-position: left center;
+  padding-left: 40px;
+  margin-bottom: 20px;
+  color: #003c2f;
+  font-weight: 600px;
+}
+
+.obs {
+  color: #738c7a;
+  font-size: 15px;
+}
