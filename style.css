@@ -216,10 +216,6 @@ hr {
   margin-top: 125px;
 }
 
-.teste {
-  height: 5000px;
-}
-
 /* Toggle Switch */
 
 .toggle-button {
@@ -251,8 +247,8 @@ hr {
   background-color: #f0f5f0;
   border-radius: 50px;
   color: #003c2f;
-  cursor: pointer;
   transition: 0.5s ease;
+  cursor: pointer;
 }
 
 .toggle-switch input[type="radio"]:checked + label {
@@ -286,6 +282,14 @@ hr {
 
 .contents {
   display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 80px;
+  margin-inline: 20%;
+}
+
+.contents2 {
+  display: none;
   flex-direction: row;
   justify-content: space-between;
   margin-top: 80px;
@@ -339,8 +343,8 @@ hr {
   border-radius: 50px;
   padding: 15px 60px;
   margin: 10px;
-  transition: 0.5s;
   cursor: pointer;
+  transition: 0.1s;
 }
 
 .content1 button:hover {
@@ -383,4 +387,61 @@ hr {
 .obs {
   color: #738c7a;
   font-size: 15px;
+}
+
+.subtitle {
+  color: #003c2f;
+  font-size: 40px;
+  font-weight: 1000;
+  text-align: center;
+  margin-top: 125px;
+}
+
+.cards {
+  margin-top: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-inline: 20%;
+}
+
+.cards div {
+  background-color: #fff;
+  border: 0.5px solid #738c7a44;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-radius: 20px;
+  padding: 40px;
+  width: 332px;
+  height: 356px;
+}
+
+.cards h3 {
+  color: #003c2f;
+  font-size: 22px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.cards p {
+  color: #738c7a;
+  margin-top: 16px;
+}
+
+.cards h2 {
+  font-size: 32px;
+  color: #003c2f;
+  text-align: right;
+  font-weight: 1000px;
+}
+
+.card2 span,
+.card3 span {
+  margin-inline: 8px;
+}
+
+.card3 a {
+  margin-top: -60px;
+  color: #22ad01;
+  text-decoration: color #22ad01;
 }
