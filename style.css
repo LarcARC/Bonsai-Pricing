@@ -421,6 +421,8 @@ hr {
   font-size: 15px;
 }
 
+/* Cards */
+
 .subtitle {
   color: #003c2f;
   font-size: 40px;
@@ -477,3 +479,53 @@ hr {
   color: #22ad01;
   text-decoration: color #22ad01;
 }
+
+/* Questions Cards */
+
+.questions {
+  margin-inline: 20%;
+}
+
+.questions h2 {
+  color: #003c2f;
+  font-size: 40px;
+  font-weight: 1000;
+  text-align: left;
+  margin-top: 175px;
+}
+
+.questions img {
+  position: absolute;
+  right: -200px;
+}
+
+.questions_cards {
+  margin-top: 60px;
+  width: 750px;
+  display: flex;
+  flex-direction: column;
+}
+
+.q_cards {
+  border-bottom: 1px solid #738c7a44;
+  padding: 30px 0 30px 0;
+  cursor: pointer;
+}
+
+.q_cards h3 {
+  color: #003c2f;
+  font-size: 19px;
+  padding: 30px 0 10px 0;
+}
+
+.q_cards img {
+  width: 50px;
+  align-items: end;
+}
+
+.q_cards p {
+  display: none;
+  color: #738c7a;
+  margin-top: 16px;
+}
+
